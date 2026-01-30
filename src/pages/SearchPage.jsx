@@ -4,9 +4,9 @@ import SeeMoreButton from "../components/SeeMoreButton";
 
 function SearchPage() {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto roboto-normal">
       <header className="px-4 md:px-6 pt-8 md:pt-10">
-        <h1 className="text-4xl md:text-5xl font-normal comfortaa text-black tracking-tight">
+        <h1 className="text-4xl md:text-5xl font-normal  comfortaa text-black tracking-tight">
           Search
         </h1>
       </header>

@@ -73,10 +73,10 @@ const chatsData = [
 
 function ChatsPage({ onSelectChat }) {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto roboto-normal">
       {/* Page Header */}
       <header className="sticky top-0 md:top-16 bg-white z-10 px-5 py-4 border-b border-black/30 md:border-none">
-        <h1 className="text-[17px] md:text-3xl font-semibold text-black text-center md:text-left l md:pt-6">
+        <h1 className="text-[17px] md:text-3xl font-semibold roboto-semibold text-black text-center md:text-left l md:pt-6">
           Chats
         </h1>
       </header>
@@ -100,7 +100,7 @@ function ChatsPage({ onSelectChat }) {
 
               {/* Chat Info */}
               <div className="flex-1 min-w-0 text-left">
-                <h2 className="text-[13px] leading-[18px] md:text-base lg:text-lg font-bold text-black truncate">
+                <h2 className="text-[13px] leading-[18px] md:text-base lg:text-lg font-bold roboto-bold text-black truncate">
                   {chat.name}
                 </h2>
                 <p className="text-[13px] text-black mt-0.5 lg:text-sm">

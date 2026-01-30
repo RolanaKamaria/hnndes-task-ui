@@ -36,7 +36,7 @@ function TopNavbar({ currentPage, onNavigate }) {
                 type="button"
                 onClick={() => onNavigate(item.page)}
                 className={`
-                  group relative flex items-center px-2 gap-2.5 py-2.5 text-base font-medium rounded-lg
+                  group relative flex items-center px-2 gap-2.5 py-2.5 text-base font-medium roboto-med rounded-lg
                   transition-colors duration-200 ease-in-out
                   hover:bg-pink-50 hover:text-gray-900
                   focus:outline-none 
@@ -62,7 +62,7 @@ function TopNavbar({ currentPage, onNavigate }) {
               className={`
                 ml-3 inline-flex items-center gap-2 px-4 py-2 rounded-full
                 bg-gradient-to-r from-rose-500 to-pink-500
-                text-white text-base font-semibold
+                text-white text-base font-semibold roboto-semibold
                 shadow-sm hover:shadow-md hover:from-rose-600 hover:to-pink-600
                 active:scale-[0.98]
                 transition-all duration-200 ease-out

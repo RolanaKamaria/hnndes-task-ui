@@ -9,7 +9,7 @@ function ChatDetailPage({ chat, onBack }) {
   if (!chat) return null;
 
   return (
-    <div className="">
+    <div className="roboto-normal">
       {/* Chat Header */}
       <header className="sticky top-0 md:top-16 bg-white z-10 flex items-center px-2 md:px-5 py-3 border-b border-black/30 ">
         <button
@@ -20,7 +20,7 @@ function ChatDetailPage({ chat, onBack }) {
         >
           <ChevronLeft size={28} className="text-black" aria-hidden="true" />
         </button>
-        <h1 className="flex-1 text-lg font-semibold text-black text-center md:text-start pr-10 md:pr-0 pl-0 md:pl-5">
+        <h1 className="flex-1 text-lg font-semibold roboto-semibold text-black text-center md:text-start pr-10 md:pr-0 pl-0 md:pl-5">
           {chat.name}
         </h1>
       </header>
