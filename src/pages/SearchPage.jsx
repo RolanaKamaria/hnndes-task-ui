@@ -19,7 +19,6 @@ function SearchPage() {
         <ImageGrid />
       </div>
 
-      {/* See More Button */}
       <SeeMoreButton />
     </div>
   );

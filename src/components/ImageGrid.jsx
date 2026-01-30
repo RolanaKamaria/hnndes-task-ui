@@ -64,7 +64,6 @@ const dogImages = [
 function ImageGrid() {
   return (
     <section className="px-4 md:px-6" aria-labelledby="results-heading">
-      {/* Figma: font Roboto 13px, letter-spacing 0.04em, uppercase */}
       <h2
         id="results-heading"
         className="text-[13px] md:text-base leading-[15px] tracking-[0.04em] text-black roboto-black uppercase mb-6"
