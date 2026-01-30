@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-roboto: 'Roboto', sans-serif;
+  --font-comfortaa: 'Comfortaa', cursive;
+}
+
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+}
+
+.comfortaa {
+  font-family: 'Comfortaa', sans-serif;
+
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
