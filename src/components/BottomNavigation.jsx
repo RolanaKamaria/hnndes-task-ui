@@ -33,7 +33,10 @@ function BottomNavigation({ currentPage, onNavigate }) {
             {item.isCenter ? (
               <button
                 type="button"
-                className="flex items-center justify-center w-[70px] h-12 rounded-full bg-gradient-to-bl from-pink-500 via-rose-500 to-orange-400 shadow-lg transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-xl focus:outline-none active:scale-95"
+                className="flex items-center justify-center w-[70px] h-[40px] rounded-full shadow-lg transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-xl focus:outline-none active:scale-95
+                                  bg-[linear-gradient(202deg,#FF00D6_8%,#FF4D00_92%)]
+                 hover:from-rose-600 hover:to-pink-600
+                "
                 aria-label={item.label}
               >
                 <item.icon

@@ -1,17 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  content: ["./src/**/*.{js,jsx}"],
   theme: {
     extend: {
       colors: {
-        "ig-primary": "#262626",
-        "ig-secondary": "#8e8e8e",
-        "ig-bg": "#fafafa",
-        "ig-border": "#dbdbdb",
-        "ig-pink": "#e1306c",
-        "ig-gradient-start": "#f58529",
-        "ig-gradient-mid": "#dd2a7b",
-        "ig-gradient-end": "#8134af",
+        primary: "#262626",
+        secondary: "#8e8e8e",
+        bg: "#fafafa",
+        border: "#dbdbdb",
+        pink: "#e1306c",
+      },
+      backgroundImage: {
+        "vivid-diagonal": "linear-gradient(202deg, #FF00D6 8%, #FF4D00 92%)",
+        "vivid-diagonal-hover":
+          "linear-gradient(202deg, #ff33e0 0%, #ff7733 100%)",
       },
       fontFamily: {
         sans: [
@@ -29,6 +31,7 @@ export default {
       },
       boxShadow: {
         soft: "0 1px 3px rgba(0,0,0,0.08)",
+        "elevated-glow": "0 10px 25px -5px rgba(255, 77, 0, 0.4)",
       },
     },
   },

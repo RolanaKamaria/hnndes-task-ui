@@ -61,9 +61,10 @@ function TopNavbar({ currentPage, onNavigate }) {
               onClick={() => onNavigate("create")}
               className={`
                 ml-3 inline-flex items-center gap-2 px-4 py-2 rounded-full
-                bg-gradient-to-r from-rose-500 to-pink-500
+                            hover:scale-110     bg-[linear-gradient(202deg,#FF00D6_8%,#FF4D00_92%)]
+                 hover:from-rose-600 hover:to-pink-600
                 text-white text-base font-semibold roboto-semibold
-                shadow-sm hover:shadow-md hover:from-rose-600 hover:to-pink-600
+                shadow-sm hover:shadow-md 
                 active:scale-[0.98]
                 transition-all duration-200 ease-out
                 focus:outline-none focus:ring-2 focus:ring-rose-400 focus:ring-offset-2
